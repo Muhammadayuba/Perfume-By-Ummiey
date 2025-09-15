@@ -1,11 +1,11 @@
-/* Reset default browser styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styling */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fff8f0; /* Soft cream background */
@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 
-/* Gold header */
+
 header {
   background-color: gold;
   color: white;
@@ -34,7 +34,7 @@ header p {
   margin-top: 10px;
 }
 
-/* Section headings */
+
 h2, h3 {
   text-align: center;
   margin: 30px 0 15px;
@@ -48,14 +48,14 @@ h2 img {
   margin: 0 auto;
 }
 
-/* General container padding */
+
 div {
   padding: 10px 20px;
 }
 
-/* Product cards */
+
 article {
-  background: linear-gradient(145deg, #fff5e6, #ffe4b5); /* Vibrant warm gradient */
+  background: linear-gradient(145deg, #fff5e6, #ffe4b5); 
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   padding: 15px;
@@ -75,9 +75,9 @@ article img {
   margin-bottom: 10px;
 }
 
-/* Order button */
+
 button {
-  background-color: #25D366; /* WhatsApp green */
+  background-color: #25D366; 
   color: white;
   padding: 10px 15px;
   border: none;
@@ -111,7 +111,7 @@ footer a {
 footer a:hover {
   text-decoration: none;
 }
-/* About Us Section */
+
 .about-us {
   background: linear-gradient(145deg, #fff5e6, #ffe4b5);
   border-radius: 12px;
@@ -135,7 +135,7 @@ footer a:hover {
   line-height: 1.7;
 }
 
-/* Fade animation */
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
